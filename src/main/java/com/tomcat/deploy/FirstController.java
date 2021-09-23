@@ -10,7 +10,7 @@ public class FirstController {
 	String n[]= {"James","Sharan","Hari"};
   @GetMapping("/greet")
   public String greet() {
-	  return "Updated Spring boot is running with pipeline script";
+	  return "Updated Spring boot is running with pipeline script - now";
   }
   
   @GetMapping("/greet2")
