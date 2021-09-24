@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class FirstController {
-	String n[]= {"James","Sharan","Hari","Jack","Roger"};
+	String n[]= {"James","Sharan","Hari","Jack","Roger","Peter"};
   @GetMapping("/greet")
   public String greet() {
 	  return "Updated Spring boot is running with pipeline script - Coded Now- inclusive";
