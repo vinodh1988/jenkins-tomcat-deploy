@@ -15,7 +15,7 @@ public class FirstController {
   
   @GetMapping("/greet2")
   public String greet2() {
-	  return "Hi!!! Spring boot2 is running ..New Change";
+	  return "Hi!!! Spring boot2 is running ..New Change and Change it";
   }
   @GetMapping("/people")
   public String[] people() {
